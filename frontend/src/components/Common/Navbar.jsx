@@ -21,11 +21,11 @@ const Navbar = () => {
                 <nav className='container mx-auto flex items-center justify-between py-4 px-6'>
                     <div className=''>
                         <Link to="/" className='text-2xl font-medium'>
-                            <img src="./logo.svg" alt="" className='w-60 h-20 -ml-2.5' />
+                            <img src="/logo.svg" alt="" className='w-60 h-20 -ml-2.5' />
                         </Link>
                     </div>
                     <div className="hidden md:flex space-x-6">
-                        <Link to="#" className='text-gray-700 hover:text-black text-sm font-medium uppercase'>
+                        <Link to="collections/all" className='text-gray-700 hover:text-black text-sm font-medium uppercase'>
                             Men
                         </Link>
                         <Link to="#" className='text-gray-700 hover:text-black text-sm font-medium uppercase'>
